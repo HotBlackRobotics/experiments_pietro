@@ -6,4 +6,6 @@ The next step will be to integrate ROS within this tunnel, in order to allow rem
 
 Useful sources:
 http://www.allitebooks.com/mastering-openvpn/
+
+the following will be used to build certificates and keys:
 https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04#step-1-install-openvpn
