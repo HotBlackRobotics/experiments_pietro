@@ -1,0 +1,98 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=IT, ST=TO, L=Turin, O=HotBlackRobotics/name=server/emailAddress=pietrolorenzetti93@gmail.com
+        Validity
+            Not Before: Sep  6 09:02:39 2017 GMT
+            Not After : Sep  4 09:02:39 2027 GMT
+        Subject: C=IT, ST=TO, L=Turin, O=HotBlackRobotics, CN=pietro/name=server/emailAddress=pietrolorenzetti93@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c7:a9:78:30:87:09:bf:b6:81:4d:18:c1:e3:a3:
+                    74:be:f2:38:a5:d4:7d:5b:88:50:59:c8:82:7d:ce:
+                    c4:2a:ee:5d:4d:a9:f7:0b:91:3f:18:fe:1d:1f:7f:
+                    35:68:98:8e:05:7f:f0:81:40:ac:ef:f9:23:30:a9:
+                    77:a1:ce:1e:a7:20:6b:3d:a4:d0:1d:48:06:75:c9:
+                    bc:26:ad:6c:99:5e:38:bf:16:37:ee:01:76:03:b9:
+                    28:8e:50:77:f0:14:c9:42:16:65:a2:4a:14:16:0b:
+                    bb:1c:df:a8:18:18:2e:af:b4:09:27:37:d4:ca:ad:
+                    6b:77:4b:62:84:c7:b1:ad:dc:29:f0:5e:1d:9d:8d:
+                    81:fc:9f:25:17:a2:26:74:23:28:4b:c3:84:40:c1:
+                    a4:bb:86:a8:a4:ae:8f:96:0d:a4:d9:2b:f9:1c:1b:
+                    3b:b1:c1:e9:98:45:16:2a:f7:b7:cd:5d:f8:aa:a8:
+                    12:7e:1b:f9:5a:f4:73:16:38:0c:75:ff:ca:15:bb:
+                    18:7e:94:e4:1a:c5:df:bd:80:70:f6:fd:8e:db:e7:
+                    2d:07:81:31:13:ee:1f:35:9d:2e:69:35:44:cb:ba:
+                    8c:cd:10:47:2e:41:5c:d5:92:25:ae:f4:56:e2:13:
+                    3b:b0:d9:e9:78:c8:ed:41:f3:e1:9a:30:fa:ff:31:
+                    e3:c1
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                F5:C1:41:6D:5B:D0:BD:47:BF:83:96:F7:B7:D9:90:2B:FA:7D:88:BD
+            X509v3 Authority Key Identifier: 
+                keyid:B9:AF:B7:36:2F:D7:3B:68:A8:80:F8:37:05:EF:CE:B8:50:63:F4:89
+                DirName:/C=IT/ST=TO/L=Turin/O=HotBlackRobotics/name=server/emailAddress=pietrolorenzetti93@gmail.com
+                serial:B6:95:84:39:89:76:FB:E5
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:server
+    Signature Algorithm: sha256WithRSAEncryption
+         86:5f:1b:31:9a:6d:1e:9d:43:c1:ba:aa:84:b5:8c:ff:35:b0:
+         0f:04:c8:c3:63:88:c2:ce:e6:20:9b:6d:ee:e6:6c:1a:51:ba:
+         bd:f9:91:02:67:84:ba:33:d6:f4:71:70:aa:02:0f:f9:ed:dd:
+         17:82:25:5f:36:87:70:54:08:74:27:18:4f:4f:dc:21:82:6e:
+         e4:9b:05:c8:84:05:7f:5d:5b:56:f1:2d:14:29:66:ac:58:84:
+         7b:1b:c4:f4:87:15:52:06:45:2e:b7:cf:2e:0c:ca:86:89:45:
+         39:75:f9:e1:56:f3:12:62:3b:b9:ab:d4:6e:75:f1:48:2b:13:
+         cd:f4:97:13:c6:ab:1d:17:de:87:4b:49:b7:9f:27:88:27:ee:
+         cb:3c:11:a9:9b:57:b2:e5:92:d3:8d:c6:12:4a:a4:e5:09:d8:
+         e5:e2:3a:18:ea:52:27:0b:56:21:d3:67:e8:db:a4:2f:a7:76:
+         72:54:58:8c:bf:ba:74:3f:13:08:d4:bc:99:fa:11:7c:3b:42:
+         6f:25:fa:c8:80:d7:d5:28:1c:ec:bb:3d:25:94:03:fe:28:7e:
+         df:33:33:d7:78:e1:04:e1:b8:17:66:3f:68:4c:25:8a:23:ff:
+         8f:ee:c5:51:7a:4b:aa:a6:fd:5a:12:ff:54:73:a8:07:79:95:
+         25:31:ff:e9
+-----BEGIN CERTIFICATE-----
+MIIE/TCCA+WgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCSVQx
+CzAJBgNVBAgTAlRPMQ4wDAYDVQQHEwVUdXJpbjEZMBcGA1UEChMQSG90QmxhY2tS
+b2JvdGljczEPMA0GA1UEKRMGc2VydmVyMSswKQYJKoZIhvcNAQkBFhxwaWV0cm9s
+b3JlbnpldHRpOTNAZ21haWwuY29tMB4XDTE3MDkwNjA5MDIzOVoXDTI3MDkwNDA5
+MDIzOVowgZQxCzAJBgNVBAYTAklUMQswCQYDVQQIEwJUTzEOMAwGA1UEBxMFVHVy
+aW4xGTAXBgNVBAoTEEhvdEJsYWNrUm9ib3RpY3MxDzANBgNVBAMTBnBpZXRybzEP
+MA0GA1UEKRMGc2VydmVyMSswKQYJKoZIhvcNAQkBFhxwaWV0cm9sb3JlbnpldHRp
+OTNAZ21haWwuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx6l4
+MIcJv7aBTRjB46N0vvI4pdR9W4hQWciCfc7EKu5dTan3C5E/GP4dH381aJiOBX/w
+gUCs7/kjMKl3oc4epyBrPaTQHUgGdcm8Jq1smV44vxY37gF2A7kojlB38BTJQhZl
+okoUFgu7HN+oGBgur7QJJzfUyq1rd0tihMexrdwp8F4dnY2B/J8lF6ImdCMoS8OE
+QMGku4aopK6Plg2k2Sv5HBs7scHpmEUWKve3zV34qqgSfhv5WvRzFjgMdf/KFbsY
+fpTkGsXfvYBw9v2O2+ctB4ExE+4fNZ0uaTVEy7qMzRBHLkFc1ZIlrvRW4hM7sNnp
+eMjtQfPhmjD6/zHjwQIDAQABo4IBZzCCAWMwCQYDVR0TBAIwADARBglghkgBhvhC
+AQEEBAMCBkAwNAYJYIZIAYb4QgENBCcWJUVhc3ktUlNBIEdlbmVyYXRlZCBTZXJ2
+ZXIgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFPXBQW1b0L1Hv4OW97fZkCv6fYi9MIG4
+BgNVHSMEgbAwga2AFLmvtzYv1ztoqID4NwXvzrhQY/SJoYGJpIGGMIGDMQswCQYD
+VQQGEwJJVDELMAkGA1UECBMCVE8xDjAMBgNVBAcTBVR1cmluMRkwFwYDVQQKExBI
+b3RCbGFja1JvYm90aWNzMQ8wDQYDVQQpEwZzZXJ2ZXIxKzApBgkqhkiG9w0BCQEW
+HHBpZXRyb2xvcmVuemV0dGk5M0BnbWFpbC5jb22CCQC2lYQ5iXb75TATBgNVHSUE
+DDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwEQYDVR0RBAowCIIGc2VydmVyMA0G
+CSqGSIb3DQEBCwUAA4IBAQCGXxsxmm0enUPBuqqEtYz/NbAPBMjDY4jCzuYgm23u
+5mwaUbq9+ZECZ4S6M9b0cXCqAg/57d0XgiVfNodwVAh0JxhPT9whgm7kmwXIhAV/
+XVtW8S0UKWasWIR7G8T0hxVSBkUut88uDMqGiUU5dfnhVvMSYju5q9RudfFIKxPN
+9JcTxqsdF96HS0m3nyeIJ+7LPBGpm1ey5ZLTjcYSSqTlCdjl4joY6lInC1Yh02fo
+26Qvp3ZyVFiMv7p0PxMI1LyZ+hF8O0JvJfrIgNfVKBzsuz0llAP+KH7fMzPXeOEE
+4bgXZj9oTCWKI/+P7sVRekuqpv1aEv9Uc6gHeZUlMf/p
+-----END CERTIFICATE-----
