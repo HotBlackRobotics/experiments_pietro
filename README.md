@@ -9,3 +9,12 @@ http://www.allitebooks.com/mastering-openvpn/
 
 the following will be used to build certificates and keys:
 https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04#step-1-install-openvpn
+
+
+Up to 6/09:
+
+to launch the VPN from the server, use the following command:
+
+sudo systemctl start openvpn@server
+
+where the @server indicates the name of the config file, stored as /etc/openvpn/server.conf that has be followed by the VPN.
