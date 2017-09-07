@@ -1,0 +1,34 @@
+# If you want to run multiple OpenVPN instances
+# on the same machine, use a different port
+# number for each one.  You will need to
+# open up this port on your firewall.
+port 1194
+
+# TCP or UDP server?
+;proto tcp
+proto udp
+
+# "dev tun" will create a routed IP tunnel,
+# "dev tap" will create an ethernet tunnel.
+# Use "dev tap0" if you are ethernet bridging
+# and have precreated a tap0 virtual interface
+# and bridged it with your ethernet interface.
+# If you want to control access policies
+# over the VPN, you must create firewall
+# rules for the the TUN/TAP interface.
+# On non-Windows systems, you can give
+# an explicit unit number, such as tun0.
+# On Windows, use "dev-node" for this.
+# On most systems, the VPN will not function
+# unless you partially or fully disable
+# the firewall for the TUN/TAP interface.
+;dev tap
+dev tun
+
+# Windows needs the TAP-Win32 adapter name
+# from the Network Connections panel if you
+# have more than one.  On XP SP2 or higher,
+# you may need to selectively disable the
+# Windows firewall for the TAP adapter.
+# Non-Windows systems usually don't need this.
+
