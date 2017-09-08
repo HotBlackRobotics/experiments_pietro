@@ -1,1 +1,0 @@
-This folder will containt all the Server configuration files.
